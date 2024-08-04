@@ -1,0 +1,26 @@
+app_version: latest
+app_name: OSN XXX                                           # CHANGE YEAR
+app_slogan: Bidang Informatika
+app_title: <h1>Selamat Datang di OSN XXX</h1>               # CHANGE YEAR
+app_description: <h2>Bidang Informatika</h2>
+
+nginx_domain_judgels_client: osn-xxx.toki.id                # CHANGE YEAR
+nginx_domain_judgels_server_api: api.osn-xxx.toki.id        # CHANGE YEAR
+nginx_domain_judgels_server_admin: admin.osn-xxx.toki.id    # CHANGE YEAR
+nginx_certbot_email: info@toki.id
+
+java_opts_judgels_server: -Xmx1g
+java_opts_judgels_grader: -Xmx1g
+
+db_root_password: xxx                                       # CHANGE PASSWORD
+db_username: judgels
+db_password: xxx                                            # CHANGE PASSWORD
+
+rabbitmq_username: judgels
+rabbitmq_password: xxx                                      # CHANGE PASSWORD
+
+jophiel_superadmin_initialPassword: xxx                     # CHANGE PASSWORD
+jophiel_session_maxConcurrentSessionsPerUser: 1
+jophiel_session_disableLogout: true
+
+gabriel_grading_numWorkerThreads: 2
