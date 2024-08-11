@@ -7,6 +7,8 @@ app_description: <h2>Bidang Informatika</h2>
 nginx_domain_judgels_client: osn-xxxx-yyyy.toki.id                # CHANGE YEAR AND SUFFIX
 nginx_domain_judgels_server_api: api.osn-xxxx-yyyy.toki.id        # CHANGE YEAR AND SUFFIX
 nginx_domain_judgels_server_admin: admin.osn-xxxx-yyyy.toki.id    # CHANGE YEAR AND SUFFIX
+nginx_domain_judgels_server_admin_auth_basic_user: osn
+nginx_domain_judgels_server_admin_auth_basic_pass: zzz            # CHANGE PASSWORD
 nginx_certbot_email: info@toki.id
 
 java_opts_judgels_server: -Xmx1g
